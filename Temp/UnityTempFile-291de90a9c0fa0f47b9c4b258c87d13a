@@ -1,0 +1,52 @@
+-debug
+-target:library
+-i:UnityEngine
+-i:System.Collections
+-base:UnityEngine.MonoBehaviour
+-nowarn:BCW0016
+-nowarn:BCW0003
+-method:Main
+-out:Temp/Assembly-UnityScript.dll
+-x-type-inference-rule-attribute:UnityEngineInternal.TypeInferenceRuleAttribute
+-pragmas:strict,downcast
+-define:UNITY_4_5_5
+-define:UNITY_4_5
+-define:UNITY_ANDROID
+-define:ENABLE_MICROPHONE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_NEW_HIERARCHY 
+-define:ENABLE_AUDIO_FMOD
+-define:ENABLE_MONO
+-define:ENABLE_TERRAIN
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GENERICS
+-define:INCLUDE_WP8SUPPORT
+-define:ENABLE_WWW
+-define:ENABLE_IMAGEEFFECTS
+-define:INCLUDE_WP_BLUE_SUPPORT
+-define:ENABLE_WEBCAM
+-define:INCLUDE_METROSUPPORT
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_NETWORK
+-define:ENABLE_PHYSICS
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:UNITY_ANDROID_API
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_SHADOWS
+-define:ENABLE_AUDIO
+-define:ENABLE_NAVMESH_CARVING
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:ENABLE_PROFILER
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_WIN
+-define:CROSS_PLATFORM_INPUT
+-define:MOBILE_INPUT
+-r:D:/Unity/Editor/Data/Managed/UnityEngine.dll
+-r:D:/Unity/Editor/Data/Managed/UnityEditor.dll
+-i:UnityEditor
+"Assets/Sample Assets/Effects/Image Effects (Pro Only)/Scripts/DepthOfFieldScatter.js"
+"Assets/Sample Assets/Effects/Image Effects (Pro Only)/Scripts/PostEffectsBase.js"
+"Assets/Sample Assets/Utility/DragRigidbody.js"
+"Assets/Sample Assets/Utility/TimedObjectDestructor.js"
